@@ -1,0 +1,26 @@
+{
+  "name": "production-grade-backend",
+  "version": "1.0.0",
+  "description": "javascript backend development",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch -r dotenv/config --experimental-json-modules src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "author": "Muhammad Naeem Tahir",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.1",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
+  }
+}
